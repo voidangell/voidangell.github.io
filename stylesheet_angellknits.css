@@ -65,14 +65,14 @@ h4 {
 }
 #mainBody {
   display: flex;
-  min-height: 300px;
+  min-height: 200px;
 }
 
 #navList {
   display: inline;
   flex: 0 1 220px;
   text-align: center;
-  min-height: 400px;
+  min-height: 200px;
 }
 #buttonHolder {
   display: grid;
