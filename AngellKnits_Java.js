@@ -14,7 +14,7 @@ function oAndeLoad() {
 function scheduleLoad() {
   window.location.href = "Schedule.html";
 }
-function contactUsLoad() {
+function contactForm() {
   window.location.href = "Contact_Us.html";
 }
 //copywrite date updater//
