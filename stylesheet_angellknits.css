@@ -65,7 +65,7 @@ h4 {
 }
 #mainBody {
   display: flex;
-  min-height: 350px;
+  min-height: 300px;
 }
 
 #navList {
