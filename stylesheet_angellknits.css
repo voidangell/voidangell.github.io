@@ -7,7 +7,7 @@ not quite white # #fffcff*/
 
 body {
   background-color: #fff2ee;
-  min-width:810px;
+  min-width: 550px;
 }
 header {
   display: inline;
@@ -15,7 +15,16 @@ header {
 #container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+}
+#container1 {
+  display: grid;
+  grid-template-columns: 130px auto auto 95px;
+  grid-template-rows: auto 30px;
+}
+#container2 {
+  display: grid;
+  flex: 0 1 80%;
+  text-align: center;
 }
 
 .headerLogo {
@@ -26,22 +35,20 @@ header {
 .headerTitle {
   font-style: italic;
   display: inline;
-  flex: 0 1 60%;
-  text-align: center;
 }
 h4 {
   margin: 0px 8px 0px 8px;
 }
 .searchBar {
   display: inline;
-  flex: 0 1 25%;
   padding-top: 5px;
 }
 .shoppingCart {
   display: inline;
-  flex: 0 1 15%;
+  flex: 0 1 16%;
   text-align: right;
   padding-top: 5px;
+  padding-right: 5px;
 }
 .searchButton {
   text-align: left;
@@ -66,14 +73,14 @@ h4 {
 }
 #mainBody {
   display: flex;
-  min-height: 200px;
+  flex: 0 1 auto;
 }
 
 #navList {
   display: inline;
-  flex: 0 1 220px;
+  flex: 0 1 auto;
   text-align: center;
-  min-height: 200px;
+  max-width: 130px;
 }
 #buttonHolder {
   display: grid;
@@ -89,11 +96,11 @@ button {
   border-style: solid;
   background-image: url("https://live.staticflickr.com/65535/51564938424_c80b44faa3_o.png");
   height: 50px;
-  width: 150px;
+  width: 125px;
   font-style: italic;
   font-size: large;
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: auto;
   font-family: "Times New Roman", Times, serif;
   border-radius: 5px;
   border-color: #a6a6a6;
@@ -114,23 +121,23 @@ button:hover {
 
 #theGuts {
   display: block;
+  min-height: min-content;
   flex: 0 1 100%;
   background-color: #fffcff;
   margin-left: 10px;
 }
 
 footer {
-  height: 200px;
+  height: max-content;
   background-color: #fffafa;
   padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 #contactForm {
   display: inline;
   text-align: center;
-  flex: 0 1 220px;
-  padding-left: 5px;
+  grid-row: 1/3;
+  grid-column: 1/2;
 }
 .contactButton {
   margin-top: 15px;
@@ -140,7 +147,9 @@ footer {
 .contactInfo {
   font-family: "Times New Roman", Times, serifs;
   font-style: italic;
+  font-size: small;
   line-height: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 .contactInfo > span {
@@ -152,12 +161,16 @@ footer {
 }
 #socials {
   /*possibly turn into grid to allow empty space to hold writing or important announcements*/
-  padding-left: 15px;
-  flex: 0 1 65%;
-  line-height: 35px;
+  grid-row: 1/2;
+  grid-column: 2/3;
   font-family: "Times New Roman", Times, serifs;
   font-style: italic;
   font-weight: bolder;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#socials > p {
+  margin: 5px 0px 5px 0px;
 }
 a {
   text-decoration: none;
@@ -168,28 +181,38 @@ a:hover {
   cursor: pointer;
   font-weight: bold;
 }
+.copyright {
+  font-family: "Times New Roman", Times, serifs;
+  font-style: italic;
+  font-size: smaller;
+  font-weight: bolder;
+  grid-row: 2/3;
+  grid-column: 2/5;
+}
 .copyright > p {
-  margin-top: 32px;
+  margin: 0px 0px 0px 5px;
 }
-
-#nav1 {
-  flex: 0 1 17.5%;
+#quoteFun {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#nav {
   font-family: "Times New Roman", Times, serifs;
   font-style: italic;
   text-align: center;
+  padding-top: 5px;
+  padding-left: 4px;
+  padding-right: 2.5px;
+  align-content: center;
 }
-#nav1 > p:hover {
-  cursor: pointer;
-  font-weight: bold;
+#nav > p {
+  margin: 5px 0px 5px 0px;
 }
-#nav2 {
-  flex: 0 1 17.5%;
-  font-family: "Times New Roman", Times, serifs;
-  font-style: italic;
-  text-align: center;
-  padding-right: 5px;
-}
-#nav2 > p:hover {
+#nav > p:hover {
   cursor: pointer;
   font-weight: bold;
 }
