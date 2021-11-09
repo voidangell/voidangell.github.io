@@ -7,7 +7,7 @@ not quite white # #fffcff*/
 
 body {
   background-color: #fff2ee;
- /* min-width: 550px;*/
+  min-width: 550px;
 }
 header {
   display: inline;
