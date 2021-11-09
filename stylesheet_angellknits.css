@@ -52,24 +52,25 @@ h4 {
   padding-right: 5px;
 }
 .searchButton {
+  display: inline-block;
   text-align: left;
   font-style: italic;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin: auto;
   font-family: "Times New Roman", Times, serif;
   border-radius: 5px;
   border-color: #a6a6a6;
   border-width: 1.5px;
   border-style: solid;
+  width: 52px;
 }
 .searchButton:hover {
   border-top-color: #8f9b5f;
   border-bottom-color: #8f9b5f;
   border-right-color: #8f9b5f;
   border-left-color: #8f9b5f;
-  font-weight: bolder;
-  box-shadow: 1px 1px 1px #a6a6a6;
-  border-width: 2px;
+  font-weight: bold;
+  /*box-shadow: 1px 1px 1px #a6a6a6;
+  border-width: 2px;*/
   cursor: pointer;
 }
 #mainBody {
@@ -165,7 +166,7 @@ footer {
   grid-column: 2/3;
   font-family: "Times New Roman", Times, serifs;
   font-style: italic;
-  font-weight: bolder;
+  font-size: smaller;
   margin-left: 5px;
   padding-left: 5px;
   padding-right: 5px;
@@ -208,12 +209,18 @@ a:hover {
 #nav {
   font-family: "Times New Roman", Times, serifs;
   font-style: italic;
-  font-size: smaller;
+  font-size: x-small;
   text-align: center;
   padding-top: 5px;
   padding-left: 4px;
   padding-right: 2.5px;
   align-content: center;
+  border-style: solid;
+  border-left-color: #a6a6a6;
+  border-left-width: 4px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
 }
 #nav > p {
   margin: 5px 0px 5px 0px;
