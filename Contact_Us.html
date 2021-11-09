@@ -21,6 +21,7 @@
       href="https://live.staticflickr.com/65535/51558606078_5367b58ee5_o.png"
     />
     <link rel="stylesheet" href="stylesheet_angellknits.css" />
+    <script src="funQuotes_Java.js"></script>
     <script src="AngellKnits_Java.js"></script>
     <title>Angell Knits | Contact Us</title>
   </head>
@@ -35,20 +36,22 @@
             width="160"
           />
         </div>
-        <div class="headerTitle">
-          <!--Logo on left - title - Welcome to Angell Knits - search bar -  includes shopping bag icon and # of item in bag, trop down hover for what's in the total-->
-          <h1>
-            Welcome |
-            <span style="font-size: large">Contact Us</span>
-          </h1>
-          <br />
-          <h4>Designed and Handcrafted in Anchorage, AK</h4>
-        </div>
-        <div class="searchBar">
-          <form action="none.html">
-            <input type="search" name="search" placeholder="keyword" />
-            <input class="searchButton" type="submit" value="Search" />
-          </form>
+        <div id="container2">
+          <div class="headerTitle">
+            <!--Logo on left - title - Welcome to Angell Knits - search bar -  includes shopping bag icon and # of item in bag, trop down hover for what's in the total-->
+            <h1>
+              |
+              <span style="font-size: large">Contact Us</span>
+            </h1>
+            <br />
+            <h4>Designed and Handcrafted in Anchorage, AK</h4>
+          </div>
+          <div class="searchBar">
+            <form action="https://">
+              <input type="search" name="search" placeholder="keyword" />
+              <input class="searchButton" type="submit" value="Search" />
+            </form>
+          </div>
         </div>
         <div class="shoppingCart">shopping cart</div>
       </div>
@@ -90,7 +93,7 @@
     </div>
     <footer>
       <!--contact us button, under - address / contact number / email -Next logos for linked socials (ravelry,insta,tiktok), far right links (two columns) to pages on website repeated in hyperlink text-->
-      <div id="container">
+      <div id="container1">
         <div id="contactForm">
           <p class="contactInfo">
             <span>Angell Knits</span>
@@ -99,12 +102,23 @@
             Jessie Angell ~ Owner<br />
             Anchorage, AK<br />angellknits@gmail.com
           </p>
-          <button class="contactButton" onclick="contactForm()">
+          <button
+            class="contactButton"
+            onclick="contactForm()"
+            style="
+              font-weight: bolder;
+              font-size: 17px;
+              box-shadow: 5px 5px 5px #8f9b5f;
+              border-width: 4px;
+              border-color: #8f9b5f;
+            "
+          >
             Contact Us
           </button>
         </div>
         <div id="socials">
-          <div>
+          <p>
+            <br />
             <img
               src="https://tachyondecay.net/assets/images/icons/ravelry_ball.png"
               height="25"
@@ -112,8 +126,8 @@
             />
             &nbsp;
             <a href="https://www.ravelry.com" target="_blank"> Ravelry</a>
-          </div>
-          <div>
+          </p>
+          <p>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/100px-Instagram_logo_2016.svg.png"
               height="25"
@@ -121,32 +135,34 @@
             />
             &nbsp;
             <a href="https://www.instagram.com" target="_blank"> Instagram</a>
-          </div>
-          <div>
+          </p>
+          <p>
             <img
               src="http://cdn140.picsart.com/287843881020211.png"
               height="25"
               width="25"
             />
             &nbsp; <a href="https://tiktok.com" target="_blank">TikTok</a>
-          </div>
-          <div class="copyright">
-            <p>
-              <br />
-              Website and Pattern Designs &copy; 2021 -
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              , &nbsp; Angell Knits
-            </p>
-          </div>
+          </p>
         </div>
-        <div id="nav1">
+        <div class="copyright">
+          <p>
+            Website and Pattern Designs &copy; 2021 -
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            , &nbsp; AngellKnits
+          </p>
+        </div>
+        <div id="quoteFun">
+          <!--JavaScript random quote generator-->
+          This is supposed to be an inspirational quote, potentially even a dad
+          joke.
+        </div>
+        <div id="nav">
           <p onclick="homepageLoad()">Homepage</p>
           <p onclick="aboutUsLoad()">About Us</p>
           <p onclick="patternLoad()">Patterns</p>
-        </div>
-        <div id="nav2">
           <p onclick="oAndeLoad()">Odds & Ends</p>
           <p onclick="scheduleLoad()">Schedule</p>
           <p onclick="contactUsLoad()">Contact Us</p>
