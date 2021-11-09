@@ -15,6 +15,7 @@ header {
 #container {
   display: flex;
   flex-direction: row;
+  height: 170px;
 }
 #container1 {
   display: grid;
@@ -58,7 +59,7 @@ h4 {
   font-family: "Times New Roman", Times, serif;
   border-radius: 5px;
   border-color: #a6a6a6;
-  border-width: 3.5px;
+  border-width: 1.5px;
   border-style: solid;
 }
 .searchButton:hover {
@@ -67,8 +68,8 @@ h4 {
   border-right-color: #8f9b5f;
   border-left-color: #8f9b5f;
   font-weight: bolder;
-  box-shadow: 3px 3px 3px #a6a6a6;
-  border-width: 4px;
+  box-shadow: 1px 1px 1px #a6a6a6;
+  border-width: 2px;
   cursor: pointer;
 }
 #mainBody {
@@ -199,6 +200,10 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+#quoteFun > p {
+  margin-bottom: 0px;
 }
 #nav {
   font-family: "Times New Roman", Times, serifs;
