@@ -20,10 +20,7 @@
       rel="shortcut icon"
       href="https://live.staticflickr.com/65535/51558606078_5367b58ee5_o.png"
     />
-    <link
-      rel="stylesheet"
-      href="stylesheet_angellknits.css"
-    />
+    <link rel="stylesheet" href="stylesheet_angellknits.css" />
     <script src="AngellKnits_Java.js"></script>
     <title>Angell Knits | Homepage</title>
   </head>
@@ -39,6 +36,7 @@
           />
         </div>
         <div class="headerTitle">
+          <div class="headerTitle"></div>
           <!--Logo on left - title - Welcome to Angell Knits - search bar -  includes shopping bag icon and # of item in bag, trop down hover for what's in the total-->
           <h1>
             Welcome |
@@ -48,12 +46,13 @@
           <h4>Designed and Handcrafted in Anchorage, AK</h4>
         </div>
         <div class="searchBar">
-          <form action="none.html">
+          <form action="https://">
             <input type="search" name="search" placeholder="keyword" />
             <input class="searchButton" type="submit" value="Search" />
           </form>
         </div>
-        <div class="shoppingCart">shopping cart</div>
+      </div>
+      <div class="shoppingCart">shopping cart</div>
       </div>
     </header>
     <div id="mainBody">
@@ -103,7 +102,7 @@
     </div>
     <footer>
       <!--contact us button, under - address / contact number / email -Next logos for linked socials (ravelry,insta,tiktok), far right links (two columns) to pages on website repeated in hyperlink text-->
-      <div id="container">
+      <div id="container1">
         <div id="contactForm">
           <p class="contactInfo">
             <span>Angell Knits</span>
@@ -143,22 +142,25 @@
             />
             &nbsp; <a href="https://tiktok.com" target="_blank">TikTok</a>
           </p>
-          <div class="copyright">
-            <p>
-              Website and Pattern Designs &copy; 2021 -
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              , &nbsp; Angell Knits
-            </p>
-          </div>
         </div>
-        <div id="nav1">
+        <div class="copyright">
+          <p>
+            Website and Pattern Designs &copy; 2021 -
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            , &nbsp; AngellKnits
+          </p>
+        </div>
+        <div id="quoteFun">
+          <!--JavaScript random quote generator-->
+          How much random text can I put in here before everything just breaks
+          and is a good for nothing ninny muggins
+        </div>
+        <div id="nav">
           <p onclick="homepageLoad()">Homepage</p>
           <p onclick="aboutUsLoad()">About Us</p>
           <p onclick="patternLoad()">Patterns</p>
-        </div>
-        <div id="nav2">
           <p onclick="oAndeLoad()">Odds & Ends</p>
           <p onclick="scheduleLoad()">Schedule</p>
           <p onclick="contactUsLoad()">Contact Us</p>
