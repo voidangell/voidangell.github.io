@@ -77,7 +77,12 @@ h4 {
   display: flex;
   flex: 0 1 auto;
 }
-
+#errorBody {
+  text-align: center;
+}
+.froggy {
+  margin: 20px;
+}
 #navList {
   display: inline;
   flex: 0 1 auto;
