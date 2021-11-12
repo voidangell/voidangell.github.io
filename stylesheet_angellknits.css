@@ -73,16 +73,19 @@ h4 {
   border-width: 2px;*/
   cursor: pointer;
 }
+
 #mainBody {
   display: flex;
   flex: 0 1 auto;
 }
+
 #errorBody {
   text-align: center;
 }
 .froggy {
   margin: 20px;
 }
+
 #navList {
   display: inline;
   flex: 0 1 auto;
@@ -131,6 +134,68 @@ button:hover {
   flex: 0 1 100%;
   background-color: #fffcff;
   margin-left: 10px;
+}
+#aboutContainer {
+  display: grid;
+  grid-template-columns: 200px auto auto auto;
+  grid-template-rows: auto auto auto;
+  margin: 0px 50px 0px 50px;
+}
+.fancyFont {
+  font-style: italic;
+  text-align: center;
+}
+.otherFont {
+  font-style: italic;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+}
+.personalPhoto1 {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+  margin: 20px;
+  max-width: 150px;
+}
+.personalPhoto1 > img {
+  display: block;
+  max-width: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #a6a6a6;
+  margin: auto;
+}
+.aboutBusiness {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+.aboutOwner {
+  grid-column: 2/5;
+  grid-row: 2/3;
+  border-style: double;
+  border-left: none;
+  border-right: none;
+  border-color: #a6a6a6;
+}
+.personalPhoto2 {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  text-align: center;
+  margin: 20px;
+  max-width: 150px;
+}
+.personalPhoto2 > img {
+  max-width: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #a6a6a6;
+}
+.funFact {
+  margin-block-start: 2em;
+  margin-block-end: 2em;
 }
 
 footer {
