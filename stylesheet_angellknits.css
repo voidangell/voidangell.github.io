@@ -151,6 +151,15 @@ button:hover {
   text-align: center;
   font-weight: bold;
 }
+.underBorder {
+  line-height: normal;
+  border-style: double;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-color: #8f9b5f;
+  border-width: thick;
+}
 .personalPhoto1 {
   display: grid;
   grid-column: 1/2;
@@ -198,20 +207,12 @@ button:hover {
   margin-block-start: 2em;
   margin-block-end: 2em;
 }
-.underBorder {
-  line-height: normal;
-  border-style: double;
-  border-left: none;
-  border-top: none;
-  border-right: none;
-  border-color: #8f9b5f;
-  border-width: thick;
-}
+
 #homeContainer {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto;
-  margin: 20px 50px 0px 50px;
+  margin: 20px;
   align-content: stretch;
 }
 .featuredPattern {
@@ -244,6 +245,92 @@ button:hover {
   grid-row: 3/4;
   justify-content: center;
 }
+#patternList {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  margin: 20px 50px 0px 50px;
+  align-content: stretch;
+}
+#productListing {
+  justify-content: left;
+}
+.product1 {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.product1Img {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.productListing1 {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.product2 {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.product2Img {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+.productListing2 {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
+.product3 {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.product3Img {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 5/7;
+}
+.productListing3 {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 5/7;
+}
+.product4 {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+.product4Img {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 7/9;
+}
+.productListing4 {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 7/9;
+}
+.product5 {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 9/11;
+}
+.product5Img {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 9/11;
+}
+.productListing5 {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 9/11;
+}
+
 footer {
   height: max-content;
   background-color: #fffafa;
@@ -290,12 +377,12 @@ footer {
 #socials > p {
   margin: 5px 0px 5px 0px;
 }
-a {
+span {
   text-decoration: none;
   color: inherit;
   font-weight: normal;
 }
-a:hover {
+span:hover {
   cursor: pointer;
   font-weight: bold;
 }
@@ -345,4 +432,3 @@ a:hover {
   cursor: pointer;
   font-weight: bold;
 }
-
