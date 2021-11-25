@@ -45,5 +45,5 @@ productListing5.addEventListener("click", exposeWriting);
 function exposeWriting() {
   hidden5.removeAttribute("hidden");
 
-  let hidden5 = document.getElementById("hidden");
+  let hidden5 = document.getElementById("hidden5");
 }
