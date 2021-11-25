@@ -96,8 +96,50 @@
       </div>
       <div id="theGuts">
         <section>
-          <p>What is created in the shadows</p>
           <!-- all the juicy center things-->
+          <!--*use hidden in HTML and javaScript formula to "popout larger description"-->
+          <section id="patternList">
+          <div class="product1Img"><img src="" alt="product1 image" /></div>
+          <div class="product1" class="productListing">
+            <p class="otherFont">Name Product 1</p>
+            <h4 class="fancyFont">Type of Pattern</h4>
+          </div>
+          <div>
+            <p id="hidden" hidden>Detailed listing1</p>
+          </div>
+          <div class="product2Img"><img src="" alt="product2 image" /></div>
+          <div class="product2" class="productListing">
+            <p class="otherFont">Name Product 2</p>
+            <h4 class="fancyFont">Type of Pattern</h4>
+          </div>
+          <div>
+            <p id="hidden">Detailed listing2</p>
+          </div>
+          <div class="product3Img"><img src="" alt="product3 image" /></div>
+          <div class="product3"  class="productListing">
+            <p class="otherFont">Name Product 3</p>
+            <h4 class="fancyFont">Type of Pattern</h4>
+          </div>
+          <div>
+            <p id="hidden">Detailed listing3</p>
+          </div>
+          <div class="product4Img"><img src="" alt="product4 image" /></div>
+          <div class="product4"  class="productListing">
+            <p class="otherFont">Name Product 4</p>
+            <h4 class="fancyFont">Type of Pattern</h4>
+          </div>
+          <div>
+            <p id="hidden">Detailed listing4</p>
+          </div>
+          <div class="product5Img"><img src="" alt="product5 image" /></div>
+          <div class="product5" class="productListing">
+            <p class="otherFont" >Name Product 5</p>
+            <h4 class="fancyFont">Type of Pattern</h4>
+          </div>
+          <div>
+            <p id="hidden">Detailed listing5</p>
+          </div>
+        </section>
         </section>
       </div>
     </div>
@@ -125,7 +167,7 @@
               width="25"
             />
             &nbsp;
-            <a href="https://www.ravelry.com" target="_blank"> Ravelry</a>
+            <span onclick="ravelryLink()"> Ravelry</span>
           </p>
           <p>
             <img
@@ -134,7 +176,7 @@
               width="25"
             />
             &nbsp;
-            <a href="https://www.instagram.com" target="_blank"> Instagram</a>
+            <span onclick="instagramLink()"> Instagram</span>
           </p>
           <p>
             <img
@@ -142,7 +184,7 @@
               height="25"
               width="25"
             />
-            &nbsp; <a href="https://tiktok.com" target="_blank">TikTok</a>
+            &nbsp; <span onclick="tiktokLink()">TikTok</span>
           </p>
         </div>
         <div class="copyright">
