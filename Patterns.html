@@ -100,44 +100,44 @@
           <!--*use hidden in HTML and javaScript formula to "popout larger description"-->
          <section id="patternList">
           <div class="product1Img"><img src="" alt="product1 image" /></div>
-          <div class="product1">
-            <p class="otherFont">Name Product 1</p>
+          <div class="product1 product">
+            <p class="otherFont" id="product">Name Product 1</p>
             <h4 class="fancyFont">Type of Pattern</h4>
           </div>
-          <div class="productListing1">
-            <p id="hidden">Detailed listing1 hidden</p>
+          <div class="productListing1 listing hidden active">
+            <p>Detailed listing1 hidden</p>
           </div>
           <div class="product2Img"><img src="" alt="product2 image" /></div>
-          <div class="product2">
-            <p class="otherFont">Name Product 2</p>
+          <div class="product2 product">
+            <p class="otherFont" id="product">Name Product 2</p>
             <h4 class="fancyFont">Type of Pattern</h4>
           </div>
-          <div class="productListing2">
-            <p id="hidden">Detailed listing2 hidden</p>
+          <div class="productListing2 listing hidden active">
+            <p>Detailed listing2 hidden</p>
           </div>
           <div class="product3Img"><img src="" alt="product3 image" /></div>
-          <div class="product3">
-            <p class="otherFont">Name Product 3</p>
+          <div class="product3 product">
+            <p class="otherFont" id="product">Name Product 3</p>
             <h4 class="fancyFont">Type of Pattern</h4>
           </div>
-          <div class="productListing3">
-            <p id="hidden">Detailed listing3 hidden</p>
+          <div class="productListing3 listing hidden active">
+            <p>Detailed listing3 hidden</p>
           </div>
           <div class="product4Img"><img src="" alt="product4 image" /></div>
-          <div class="product4">
-            <p class="otherFont">Name Product 4</p>
+          <div class="product4 product">
+            <p class="otherFont" id="product">Name Product 4</p>
             <h4 class="fancyFont">Type of Pattern</h4>
           </div>
-          <div class="productListing4">
-            <p id="hidden">Detailed listing4 hidden</p>
+          <div class="productListing4 listing hidden active">
+            <p>Detailed listing4 hidden</p>
           </div>
           <div class="product5Img"><img src="" alt="product5 image" /></div>
-          <div class="product5">
-            <p class="otherFont" class="productListing5">Name Product 5</p>
-            <h4 class="fancyFont">Type of Pattern</h4>
+          <div class="product5 product">
+            <p class="otherFont">Name Product 5</p>
+            <h4 class="fancyFont" id="product">Type of Pattern</h4>
           </div>
-          <div>
-            <p id="hidden" hidden>Detailed listing5</p>
+          <div class="productListing5 listing hidden active">
+            <p>Detailed listing5</p>
           </div>
         </section>
       </div>
@@ -164,6 +164,7 @@
               src="https://tachyondecay.net/assets/images/icons/ravelry_ball.png"
               height="25"
               width="25"
+              alt="Ravelry Logo"
             />
             &nbsp;
             <span onclick="ravelryLink()"> Ravelry</span>
@@ -173,6 +174,7 @@
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/100px-Instagram_logo_2016.svg.png"
               height="25"
               width="25"
+              alt="Instagram Logo"
             />
             &nbsp;
             <span onclick="instagramLink()"> Instagram</span>
@@ -182,6 +184,7 @@
               src="http://cdn140.picsart.com/287843881020211.png"
               height="25"
               width="25"
+              alt="TikTok Logo"
             />
             &nbsp; <span onclick="tiktokLink()">TikTok</span>
           </p>
@@ -189,9 +192,7 @@
         <div class="copyright">
           <p>
             Website and Pattern Designs &copy; 2021 -
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
+            <span class="copyright" id="copyWrite"> </span>
             , &nbsp; AngellKnits
           </p>
         </div>
