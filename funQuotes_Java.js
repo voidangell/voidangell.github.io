@@ -43,4 +43,5 @@ function funQuoteRotator() {
   quoteSelect.innerHTML =
     '<p> "' + quote[i] + '" <br/> <em>~ ' + author[i] + "</em>";
 }
-console.log("Quotes collected from friends, please enjoy <3!" quote.length)
+console.log("Quotes collected from friends, please enjoy <3!");
+console.log(quote.length);
