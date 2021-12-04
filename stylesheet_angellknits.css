@@ -421,6 +421,8 @@ span:hover {
 
 #quoteFun > p {
   margin-bottom: 0px;
+   margin-left: 5px;
+  margin-right: 15px;
 }
 #nav {
   font-family: "Times New Roman", Times, serifs;
