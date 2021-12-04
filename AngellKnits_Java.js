@@ -105,7 +105,7 @@ window.onload = function () {
 //hidden listing - click//
 //listing1 //
 function showListing1() {
-  var productListing1 = document.querySelector(".productListing1");
+  const productListing1 = document.querySelector(".productListing1");
   if (productListing1.classList.contains("holder") === true) {
     productListing1.classList.toggle("active");
     productListing1.classList.remove("holder");
