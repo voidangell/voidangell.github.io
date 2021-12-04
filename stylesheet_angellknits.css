@@ -250,16 +250,25 @@ button:hover {
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
   margin: 20px 50px 0px 50px;
-  align-content: stretch;
 }
 #productListing {
   justify-content: left;
 }
+.hidden {
+  visibility: hidden;
+  visibility: collapse;
+}
+#product:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .product1 {
   display: grid;
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
 .product1Img {
   display: grid;
   grid-column: 1/2;
@@ -393,6 +402,10 @@ span:hover {
   font-weight: bolder;
   grid-row: 2/3;
   grid-column: 2/5;
+}
+.copyright span:hover {
+  cursor: inherit;
+  font-weight: inherit;
 }
 .copyright > p {
   margin: 0px 0px 0px 5px;
