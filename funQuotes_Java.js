@@ -1,3 +1,5 @@
+window.addEventListener("load", funQuoteRotator);
+
 function funQuoteRotator() {
   var quote = [
     "Well, there’s the usual things: flowers, chocolates, promises you don’t intend to keep.",
