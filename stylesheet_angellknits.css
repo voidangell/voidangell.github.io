@@ -269,6 +269,13 @@ button:hover {
 .product5Img {
   margin-right: 20px;
 }
+.product1Img:hover,
+.product2Img:hover,
+.product3Img:hover,
+.product4Img:hover,
+.product5Img:hover {
+  cursor: pointer;
+}
 
 .productListing1,
 .productListing2,
