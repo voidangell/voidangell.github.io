@@ -247,7 +247,7 @@ button:hover {
 }
 #patternList {
   display: grid;
-  grid-template-columns: min-content max-content min-content;
+  grid-template-columns: max-content max-content min-content;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
   margin: 20px 50px 20px 50px;
 }
