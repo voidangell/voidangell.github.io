@@ -247,9 +247,9 @@ button:hover {
 }
 #patternList {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: min-content max-content min-content;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
-  margin: 20px 50px 0px 50px;
+  margin: 20px 50px 20px 50px;
 }
 #productListing {
   justify-content: left;
@@ -262,6 +262,22 @@ button:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+.product1Img,
+.product2Img,
+.product3Img,
+.product4Img,
+.product5Img {
+  margin-right: 20px;
+}
+
+.productListing1,
+.productListing2,
+.productListing3,
+.productListing4,
+.productListing5 {
+  margin-left: 20px;
+}
+
 
 .product1 {
   display: grid;
@@ -327,7 +343,7 @@ button:hover {
 .product5 {
   display: grid;
   grid-column: 2/3;
-  grid-row: 9/11;
+  grid-row: 9/10;
 }
 .product5Img {
   display: grid;
