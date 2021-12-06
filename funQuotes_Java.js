@@ -22,6 +22,7 @@ function funQuoteRotator() {
     "The world is cruel, the world is ugly, but there are times and there are people when the world is not. And at its cruelest, it’s still the only world we’ve got. Light and dark, foul and fair…",
     "Oh, Pooh! You messed up my moose!",
     "They can’t order me to stop dreaming!",
+    "A spoonful of sugar helps the medicine go down, in the most delightful way.",
   ];
   var author = [
     "Cogsworth",
@@ -38,6 +39,7 @@ function funQuoteRotator() {
     "Hunchback of Notre Dame",
     "Rabbit",
     "Cinderella",
+    "Mary Poppins",
   ];
   var i = Math.floor(Math.random() * quote.length);
 
