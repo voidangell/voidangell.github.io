@@ -252,7 +252,7 @@ button:hover {
 }
 #patternList {
   display: grid;
-  grid-template-columns: max-content max-content min-content;
+  grid-template-columns: max-content max-content300 px ;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
   margin: 20px 50px 20px 50px;
 }
@@ -272,7 +272,7 @@ button:hover {
 .product3Img,
 .product4Img,
 .product5Img {
-  margin-right: 20px;
+  margin: 20px;
 }
 .product1Img:hover,
 .product2Img:hover,
